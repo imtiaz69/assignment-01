@@ -155,8 +155,12 @@
    margin:0  295px;
    margin-top: 58px;
 }
-
+.inspiration-video-center{
+   display: flex;
+   justify-content: center;
+}
 .inspiration-video-frame{
+   display: inline-block;
    position: absolute;
    width: 1140px;
    height: 614px;
@@ -177,3 +181,4 @@
    height: 550px;
    border-radius: 16px;
 }
+
