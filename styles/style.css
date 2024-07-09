@@ -110,14 +110,17 @@
  .explain-1-text{
    width: 56%;
  }
- .explain-1-text h3{
+ .explain-title{
    font-size: 24px;
    font-weight: 700;
    color: rgba(13, 19, 33, 0.7);
    text-align: left;
  }
 
- .explain-1-text p{
+ .explain-description{
+   font-size: 16px;
+   font-weight: 400;
+   color: rgb(13, 19, 33,0.7);
    text-align: left;
  }
 
@@ -130,3 +133,47 @@
    font-size: 20px;
    font-weight: 600;
  }
+
+.explain-2{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border-radius: 16px;
+   background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+   margin: 32px 0;
+   padding: 48px;
+}
+.explain-2-image{
+   margin-right: 50px;
+}
+.explain-2-text{
+   width: 56%;
+   margin: 10px 102px 10px 0;
+}
+
+.inspiration-text{
+   margin:0  295px;
+   margin-top: 58px;
+}
+
+.inspiration-video-frame{
+   position: absolute;
+   width: 1140px;
+   height: 614px;
+   justify-content: center;
+   align-items: center;
+   padding: 32px; 
+   margin: 48px auto;
+   align-self: auto;
+   box-sizing: border-box;
+   border: 1px solid rgba(13, 19, 33, 0.2);
+   border-radius: 16px;
+   margin-left: 40px;
+   
+}
+
+.inspiration-video{
+   width: 1076px;
+   height: 550px;
+   border-radius: 16px;
+}
