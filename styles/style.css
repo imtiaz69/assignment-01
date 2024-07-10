@@ -226,3 +226,22 @@
    font-weight: 700;
    margin-top: 10px;
 }
+
+.item{
+   background: rgb(255, 255, 255);
+   border: 1px solid rgba(13, 19, 33, 0.15);
+   border-radius: 16px;
+   padding: 40px;
+   margin:24px;
+}
+
+.heading-text3{
+   font-size: 24px;
+   font-weight: 800;
+   color: rgb(13, 19, 33);
+}
+.item{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
