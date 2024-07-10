@@ -324,7 +324,7 @@
 }
 
 .submit-btn{
-   /* position: static; */
+   position: static;
    width: 120px;
    max-height: 57px;
    border-radius: 8px;
