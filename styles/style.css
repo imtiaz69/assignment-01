@@ -44,6 +44,10 @@
     font-weight: 600;
     text-align: center;
 }
+.download-btn:hover{
+      background-color: #e8e9e8;
+      transition: 0.5s ease;
+}
 
 .banner{
     background-image: url(../assets/Hero-bg.png);
@@ -87,6 +91,10 @@
     margin-bottom: 44px;
     margin-top: 32px;
  }
+ .black-button:hover{
+   background-color: #494a49;
+   transition: 0.5s ease;
+}
 
  .main{
     margin: 0 150px;
@@ -143,7 +151,10 @@
    font-size: 20px;
    font-weight: 600;
  }
-
+ .learn-more-button:hover{
+   background-color: #e8e9e8;
+   transition: 0.5s ease;
+}
 .explain-2{
    display: flex;
    justify-content: space-between;
@@ -312,8 +323,8 @@
    padding:  17px 20px;
 }
 
-#submit-btn{
-   position: static;
+.submit-btn{
+   /* position: static; */
    width: 120px;
    max-height: 57px;
    border-radius: 8px;
@@ -321,6 +332,10 @@
    padding:  17px 20px;
    font-size: 16px;
    font-weight: 600;
+}
+.submit-btn:hover{
+   background-color: #d7dbd7;
+   transition: 0.5s ease;
 }
 
 html{
